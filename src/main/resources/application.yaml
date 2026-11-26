@@ -1,0 +1,31 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: arifmetik
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/arifmetik}
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  thymeleaf:
+    enabled: false
+
+# Admin login and the books access code are NOT stored in the code.
+# Provide them as environment variables (or in an external properties file):
+#   APP_ADMIN_USERNAME, APP_ADMIN_PASSWORD, APP_ACCESS_CODE
+app:
+  admin:
+    username: ${APP_ADMIN_USERNAME}
+    password: ${APP_ADMIN_PASSWORD}
+  access:
+    code: ${APP_ACCESS_CODE}

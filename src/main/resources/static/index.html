@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bright Minds Academy — Mental Arifmetika</title>
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- floating decorations -->
+  <div class="decor" aria-hidden="true">
+    <svg class="d s1 tw" style="top:15%;left:6%"  width="34" height="34" viewBox="0 0 24 24" fill="#F4B740"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s2 tw" style="top:26%;right:8%" width="26" height="26" viewBox="0 0 24 24" fill="#E85D9E"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s3 tw" style="top:60%;left:4%"  width="22" height="22" viewBox="0 0 24 24" fill="#7C5DC7"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s2 tw" style="top:73%;right:6%" width="30" height="30" viewBox="0 0 24 24" fill="#8B5CC8"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s1 tw" style="top:42%;right:15%" width="18" height="18" viewBox="0 0 24 24" fill="#A98FE0"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s3 tw" style="top:12%;left:44%" width="20" height="20" viewBox="0 0 24 24" fill="#F4B740"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s2 tw" style="top:85%;left:40%" width="16" height="16" viewBox="0 0 24 24" fill="#E85D9E"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.6 21 12 17.3 6.4 21 8 13.4 3 9l6.4-.7z"/></svg>
+    <svg class="d s1" style="top:52%;left:48%" width="24" height="24" viewBox="0 0 24 24" fill="#F4B740"><path d="M9 21h6v-1H9v1zm3-19a7 7 0 00-4 12.7V17h8v-2.3A7 7 0 0012 2z"/></svg>
+    <svg class="d s3" style="top:20%;left:22%" width="26" height="26" viewBox="0 0 24 24" fill="#E8A00E"><path d="M9 21h6v-1H9v1zm3-19a7 7 0 00-4 12.7V17h8v-2.3A7 7 0 0012 2z"/></svg>
+    <span class="d sp tw" style="top:33%;left:12%"></span>
+    <span class="d sp tw" style="top:68%;right:20%"></span>
+    <span class="d sp tw" style="top:48%;left:30%"></span>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="/" class="nav-logo" data-section="home">
+        <img src="/assets/brand-logo.png" alt="Bright Minds Academy" class="brand-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menyu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/" data-section="home" class="active">Ana səhifə</a></li>
+        <li><a href="/mental" data-section="mental">Mental Arifmetika</a></li>
+        <li><a href="/books" data-section="methodology">Kitablar</a></li>
+        <li><a href="/about" data-section="about">Haqqımızda</a></li>
+        <li><a href="/contact" data-section="contact">Əlaqə</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===================== HOME ===================== -->
+    <section id="section-home" class="section active">
+      <div class="hero">
+        <div class="container">
+          <img src="/assets/kid-boy.png" class="hero-kid kid-left" alt="" aria-hidden="true" />
+          <div class="hero-content">
+            <span class="eyebrow">★ Zehni hesablama · Mental arifmetika</span>
+            <h1>Zehni hesablamanı<br /><span class="accent">oyun kimi öyrən</span></h1>
+            <p>Bright Minds Academy-nin mental arifmetika platforması. Ekrana çıxan ədədləri izlə, beynində topla, cavabını yaz — sürətin və diqqətin hər məşqdə güclənsin.</p>
+            <div class="hero-buttons">
+              <a href="/mental" class="btn btn-primary" data-section="mental">Məşqə başla ★</a>
+              <a href="/books" class="btn btn-outline" data-section="methodology">Kitablar</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="/assets/kid-girl.png" class="hero-kid kid-right" alt="" aria-hidden="true" />
+            <div class="hero-card">
+              <div class="hero-card-inner">
+                <span class="card-tag">Canlı nümunə</span>
+                <div class="flash" id="heroFlash">7</div>
+                <div class="hero-lines"><span></span><span></span><span></span></div>
+                <div class="hero-badges">
+                  <b class="hb-1">+ Toplama</b><b class="hb-2">− Çıxma</b><b class="hb-3">Qarışıq</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features container">
+        <div class="feature-card">
+          <div class="feature-icon fi-1">Σ</div>
+          <h3>Mental Arifmetika</h3>
+          <p>Ədəd aralığını, sayını, sürətini və ekran bölgüsünü özün seç — məşqi tam özünə uyğunlaşdır.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon fi-2">📚</div>
+          <h3>Kitablar</h3>
+          <p>Tədris materiallarını və kitabları bir yerdə topla, saxla və istənilən vaxt yenidən oxu.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon fi-3">🎯</div>
+          <h3>Anında Nəticə</h3>
+          <p>Cavabını yoxla, düzgün cavabla müqayisə et və hər hissə üzrə öz cəmini gör.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MENTAL ARITHMETIC ===================== -->
+    <section id="section-mental" class="section">
+      <div class="container has-kid">
+        <div class="kid-duo">
+          <img src="/assets/kid-boy.png" class="section-kid kid-left" alt="" aria-hidden="true" />
+          <img src="/assets/kid-girl.png" class="section-kid kid-right" alt="" aria-hidden="true" />
+        </div>
+        <div class="section-header">
+          <span class="eyebrow">★ Məşq meydanı</span>
+          <h2>Mental Arifmetika</h2>
+          <p>Parametrləri tənzimlə və məşqə başla</p>
+        </div>
+
+        <!-- SETTINGS -->
+        <div class="settings-panel" id="settingsPanel">
+          <div class="settings-grid">
+            <div class="form-group">
+              <label>Ədədlərin sayı</label>
+              <input type="number" id="numCount" value="5" min="1" max="50" />
+              <span class="form-hint">Neçə ədəd göstəriləcək</span>
+            </div>
+            <div class="form-group">
+              <label>Rəqəm sayı</label>
+              <select id="digitCount">
+                <option value="1" selected>1 rəqəmli</option>
+                <option value="2">2 rəqəmli</option>
+                <option value="3">3 rəqəmli</option>
+                <option value="4">4 rəqəmli</option>
+              </select>
+              <span class="form-hint">Hər ədəd neçə rəqəmdən ibarət olsun</span>
+            </div>
+            <div class="form-group">
+              <label>Göstərmə sürəti (ms)</label>
+              <input type="number" id="intervalMs" value="1000" min="100" step="100" />
+              <span class="form-hint">Hər ədəd arasındakı vaxt</span>
+            </div>
+            <div class="form-group">
+              <label>Ekran bölgüsü</label>
+              <select id="screenDiv">
+                <option value="1" selected>1 hissə</option>
+                <option value="2">2 hissə</option>
+                <option value="3">3 hissə</option>
+                <option value="4">4 hissə</option>
+              </select>
+              <span class="form-hint">Hər hissə ayrı hesablanır</span>
+            </div>
+            <div class="form-group">
+              <label>Əməliyyat</label>
+              <select id="operation">
+                <option value="add">Toplama (+)</option>
+                <option value="sub">Çıxma (−)</option>
+                <option value="mul">Vurma (×)</option>
+                <option value="mix">Qarışıq (+/−)</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-full" id="startBtn">Məşqə başla ★</button>
+        </div>
+
+        <!-- EXERCISE AREA -->
+        <div class="exercise-area" id="exerciseArea" style="display:none">
+          <div class="exercise-toolbar">
+            <div class="progress-info">
+              <span id="phaseLabel">Hazırlıq</span>
+            </div>
+            <button class="btn btn-outline btn-sm" id="stopBtn">Dayandır</button>
+          </div>
+          <div class="exercise-grid" id="exerciseGrid"></div>
+        </div>
+
+        <!-- ANSWER PANEL -->
+        <div class="answer-panel" id="answerPanel" style="display:none">
+          <h3>Cavabını daxil et</h3>
+          <div id="answerInputs"></div>
+          <button class="btn btn-primary btn-full" id="submitBtn">Yoxla ✓</button>
+        </div>
+
+        <!-- RESULT MODAL -->
+        <div class="modal-overlay" id="resultModal" style="display:none">
+          <div class="modal">
+            <div class="modal-header">
+              <h3>Nəticələr</h3>
+              <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body" id="resultBody"></div>
+            <div class="modal-footer">
+              <button class="btn btn-outline" id="retryBtn">Yenidən</button>
+              <button class="btn btn-violet" id="newExerciseBtn">Yeni məşq</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== METHODOLOGY ===================== -->
+    <section id="section-methodology" class="section">
+      <div class="container has-kid">
+        <div class="kid-duo">
+          <img src="/assets/kid-boy.png" class="section-kid kid-left" alt="" aria-hidden="true" />
+          <img src="/assets/kid-girl.png" class="section-kid kid-right" alt="" aria-hidden="true" />
+        </div>
+        <div class="section-header">
+          <span class="eyebrow">★ Kitabxana</span>
+          <h2>Kitablar</h2>
+          <p>Tədris materialları kolleksiyası</p>
+        </div>
+
+        <div class="methodology-list card">
+          <div class="methodology-list-header">
+            <h3>Mövcud kitablar</h3>
+            <button class="btn btn-sm btn-outline" id="loginBtn">Daxil ol</button>
+          </div>
+          <div id="bookList">
+            <p class="text-muted">Hələ heç bir kitab əlavə edilməyib.</p>
+          </div>
+        </div>
+
+        <!-- ADMIN PANEL (visible only when logged in) -->
+        <div class="methodology-form card" id="adminPanel" style="display:none">
+          <div class="admin-panel-header">
+            <h3>İdarəetmə paneli</h3>
+            <div class="admin-user-info">
+              <span id="adminName"></span>
+              <button class="btn btn-sm btn-outline" id="logoutBtn" style="color:var(--danger);border-color:var(--danger)">Çıxış</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Kitabın adı</label>
+            <input type="text" id="bookTitle" placeholder="Kitabın adını daxil et" />
+          </div>
+          <div class="form-group" style="margin-top:14px">
+            <label>Müəllif</label>
+            <input type="text" id="bookAuthor" placeholder="Müəllif adı" />
+          </div>
+          <div class="form-group" style="margin-top:14px">
+            <label>Fayl</label>
+            <input type="file" id="bookFile" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" />
+            <span class="form-hint">PDF, Word (.doc/.docx) və şəkil (.jpg/.png) faylları qəbul olunur</span>
+          </div>
+          <button class="btn btn-primary btn-full" id="saveBookBtn" style="margin-top:16px">Yadda saxla</button>
+        </div>
+      </div>
+
+      <!-- LOGIN MODAL -->
+      <div class="modal-overlay" id="loginModal" style="display:none">
+        <div class="modal modal-sm">
+          <div class="modal-header">
+            <h3>Daxil ol</h3>
+            <button class="modal-close" id="loginModalClose">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>İstifadəçi adı</label>
+              <input type="text" id="loginUsername" placeholder="İstifadəçi adı" autocomplete="off" />
+            </div>
+            <div class="form-group" style="margin-top:14px">
+              <label>Şifrə</label>
+              <input type="password" id="loginPassword" placeholder="Şifrə" />
+            </div>
+            <div id="loginError" class="form-error" style="display:none;margin-top:10px">İstifadəçi adı və ya şifrə yanlışdır.</div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline" id="loginCancel">Ləğv et</button>
+            <button class="btn btn-primary" id="loginSubmit">Daxil ol</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOOK ACCESS CODE MODAL -->
+      <div class="modal-overlay" id="accessModal" style="display:none">
+        <div class="modal modal-sm">
+          <div class="modal-header">
+            <h3>Kitablara giriş</h3>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>Giriş kodu</label>
+              <input type="password" id="accessCodeInput" placeholder="Kodu daxil edin" autocomplete="off" />
+            </div>
+            <div id="accessError" class="form-error" style="display:none;margin-top:10px">Kod yanlışdır.</div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline" id="accessCancel">Ləğv et</button>
+            <button class="btn btn-primary" id="accessSubmit">Daxil ol</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="section-about" class="section">
+      <div class="container has-kid">
+        <div class="kid-duo">
+          <img src="/assets/kid-boy.png" class="section-kid kid-left" alt="" aria-hidden="true" />
+          <img src="/assets/kid-girl.png" class="section-kid kid-right" alt="" aria-hidden="true" />
+        </div>
+        <div class="section-header">
+          <span class="eyebrow">★ Bizim hekayə</span>
+          <h2>Haqqımızda</h2>
+          <p>Bright Minds Academy — Təhsil və Tədris akademiyası</p>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p class="about-lead"><b>Bright Minds Academy</b> uşaqların və gənclərin zehni potensialını açan təhsil mərkəzidir. Mental arifmetikadan tutmuş məntiq və oxu bacarıqlarına qədər — biz öyrənməni maraqlı, sürətli və nəticəli edirik.</p>
+            <p class="about-lead">Akademiyanın əsas istiqaməti <b>zehni hesablama</b> və <b>müəllim hazırlığı</b>dır. Uşaqlar ədədlərlə oynayaraq diqqətini, yaddaşını və özünəinamını gücləndirir.</p>
+            <div class="about-list">
+              <div class="row"><div class="ic">🧮</div><div><h4>Mental Arifmetika</h4><p>Əzbərsiz sürətli zehni hesablama bacarığı.</p></div></div>
+              <div class="row"><div class="ic">👩‍🏫</div><div><h4>Müəllim Hazırlığı</h4><p>Gələcək müəllimlər üçün peşəkar təlim proqramı.</p></div></div>
+              <div class="row"><div class="ic">🧩</div><div><h4>Məntiq</h4><p>Analitik düşüncə və problem həlli məşqləri.</p></div></div>
+              <div class="row"><div class="ic">✖️</div><div><h4>Əzbərsiz Vurma</h4><p>Vurma cədvəlini əzbərləmədən mənimsəmə metodu.</p></div></div>
+              <div class="row"><div class="ic">📖</div><div><h4>Oxu və Xətt Təlimi</h4><p>Düzgün oxu vərdişi və gözəl xətt üzrə hazırlıq.</p></div></div>
+            </div>
+          </div>
+          <div class="about-card card">
+            <div class="founder">
+              <div class="avatar"><img src="/assets/WhatsApp Image 2026-07-09 at 20.01.35.jpeg" alt="Gülsana İsmayılzadə"></div>
+              <div>
+                <b>Gülsana İsmayılzadə</b>
+                <span>Təsisçi və təlimçi</span>
+              </div>
+            </div>
+            <p class="about-lead" style="font-size:.98rem">“Hər uşağın içində parlaq bir zəka var. Onu böyütmək, gücləndirmək və işıqlandırmaq bizim işimizdir — çünki beyin ən güclü əzələdir.”</p>
+            <div class="stat-row">
+              <div class="stat"><b>16K+</b><span>İZLƏYİCİ</span></div>
+              <div class="stat"><b>1500+</b><span>PAYLAŞIM</span></div>
+              <div class="stat"><b>777</b><span>PARLAQ ZƏKA</span></div>
+            </div>
+            <a href="https://instagram.com/brightminds.az" target="_blank" rel="noopener" class="btn btn-violet btn-full" style="margin-top:18px">Instagram-da izlə →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="section-contact" class="section">
+      <div class="container has-kid">
+        <div class="kid-duo">
+          <img src="/assets/kid-boy.png" class="section-kid kid-left" alt="" aria-hidden="true" />
+          <img src="/assets/kid-girl.png" class="section-kid kid-right" alt="" aria-hidden="true" />
+        </div>
+        <div class="section-header">
+          <span class="eyebrow">★ Bizə yazın</span>
+          <h2>Əlaqə</h2>
+          <p>Sualların var? Bizimlə əlaqə saxla</p>
+        </div>
+        <div class="contact-content card">
+          <div class="rows">
+            <a href="https://instagram.com/brightminds.az" target="_blank" rel="noopener"><span class="ic">◎</span> instagram.com/brightminds.az</a>
+            <a href="https://brightminds.edusoft.az/apply" target="_blank" rel="noopener"><span class="ic">🔗</span> brightminds.edusoft.az/apply</a>
+            <span><span class="ic">📍</span> Gənclik filialı, Bakı</span>
+          </div>
+          <a href="https://instagram.com/brightminds.az" target="_blank" rel="noopener" class="btn btn-primary social-btn">◎ Instagram-a keçid</a>
+          <p class="copyright">© 2026 Bright Minds Academy · Bütün hüquqlar qorunur.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#5B3E96" d="M0,40 C220,86 460,86 720,52 C980,18 1220,18 1440,48 L1440,90 L0,90 Z"></path>
+    </svg>
+    <div class="bar">
+      <div class="footer-center">
+        <div class="footer-brand">Bright Minds Academy</div>
+        <small>Zehni hesablama platforması</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/mental-arithmetic.js"></script>
+  <script src="/js/methodology.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

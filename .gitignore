@@ -1,0 +1,26 @@
+HELP.md
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IDE ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+### Secrets / local config ###
+.env
+.env.*
+*.pem
+*.key
+application-local.*
+application-prod.*
